@@ -1,0 +1,171 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(163, 167, 226);
+    border-radius: 10px;
+  }
+
+  .main {
+    background-image: url(Events\ \(1\).png);
+    background-size: cover;
+    animation-fill-mode: backwards;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(900px 100vw);
+    position: relative;
+  }
+
+  nav button {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    right: 0;
+  }
+
+  h1 {
+    font-size: large;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  #navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+
+  #navbar h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    display: flex;
+  }
+
+  #navbar ul li {
+    padding: 10px;
+  }
+
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #navbar ul li a:hover {
+    color: rgb(20, 20, 20);
+  }
+
+  #navbar ul li a.current {
+    color: rgb(18, 18, 18);
+  }
+
+  .btn {
+    position: relative;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(164, 241, 69);
+    border-radius: 18px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+
+  }
+
+  #showcase {
+    /* background-image: url("Events.png"); */
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  #showcase .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #showcase .showcase-content {
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  #showcase .showcase-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  #showcase .showcase-content p.lead {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #showcase .showcase-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .showcase .showcase-content a:hover {
+    background-color: orange;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 100px;
+    font-size: 14px;
+  }
+
+  .h1 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer a {
+    color: yellow;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: orange;
+  }
